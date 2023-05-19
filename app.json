@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "mouratech-rn-ex02",
-    "slug": "mouratech-rn-ex02",
+    "name": "mouratech-rn-exnavigate",
+    "slug": "mouratech-rn-exnavigate",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
