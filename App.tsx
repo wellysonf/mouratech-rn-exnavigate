@@ -8,6 +8,7 @@ import { Loading } from '@components/Loading';
 import { Groups } from '@screens/Groups';
 import { NewGroup } from '@screens/NewGroup';
 import { Players } from '@screens/Players';
+import { Routes } from '@routes/Routes';
 
 
 export default function App() {
@@ -21,7 +22,7 @@ export default function App() {
           backgroundColor="transparent"
           translucent
         />
-        { fontsLoaded ? <Players/> : <Loading/> }
+        { fontsLoaded ? <Routes /> : <Loading/> }
       </>
     </ThemeProvider>
   );
